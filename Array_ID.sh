@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#deklarasi array indirect declaration
+# deklarasi array indirect declaration
 distroLinuxDesktop[0]=BlankOn
 distroLinuxDesktop[1]=Ubuntu
 distroLinuxDesktop[2]=Debian
@@ -11,6 +11,6 @@ distroLinuxServer[0]=UbuntuServer
 distroLinuxServer[1]=CentOS
 distroLinuxServer[2]=FedoraServer
 
-#cara mengambil nilai array
+# cara mengambil nilai array
 echo ${distroLinuxDesktop[*]}
 echo ${distroLinuxServer[*]}

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#deklarasikan array [Explicit Declaration] :
+# deklarasikan array [Explicit Declaration] :
 declare -a angka
 
 i=0;
@@ -11,6 +11,6 @@ do
    let i=$i+1;
 done
 
-#tampilkan semua elemen array
-#dengan indexnya berisi "*" atau "@"
+# tampilkan semua elemen array
+# dengan indexnya berisi "*" atau "@"
 echo ${angka[@]}
